@@ -1,0 +1,25 @@
+SELECT EXTRACT(YEAR FROM CURRENT_DATE);  
+EXTRACT(YEAR FROM Date) 
+----------------------- 
+        2016  
+SELECT EXTRACT(MONTH FROM CURRENT_DATE);  
+EXTRACT(MONTH FROM Date) 
+------------------------ 
+          1        
+SELECT EXTRACT(DAY FROM CURRENT_DATE);  
+EXTRACT(DAY FROM Date) 
+------------------------ 
+          1    
+       
+SELECT EXTRACT(HOUR FROM CURRENT_TIMESTAMP);  
+EXTRACT(HOUR FROM Current TimeStamp(6)) 
+--------------------------------------- 
+                 4      
+SELECT EXTRACT(MINUTE FROM CURRENT_TIMESTAMP);  
+EXTRACT(MINUTE FROM Current TimeStamp(6)) 
+----------------------------------------- 
+                 54  
+SELECT EXTRACT(SECOND FROM CURRENT_TIMESTAMP);  
+EXTRACT(SECOND FROM Current TimeStamp(6)) 
+----------------------------------------- 
+
