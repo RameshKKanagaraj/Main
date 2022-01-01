@@ -1,6 +1,6 @@
 SELECT EXTRACT(YEAR FROM CURRENT_DATE);  
 EXTRACT(YEAR FROM Date) 
------------------------ 
+---------------------
         2016  
 SELECT EXTRACT(MONTH FROM CURRENT_DATE);  
 EXTRACT(MONTH FROM Date) 
